@@ -32,7 +32,7 @@ def heap_sort(arr):
 def measure_time(size_of_array):
     array = [random.randint(1, size_of_array) for _ in range(size_of_array)]
     
-    with open('average_case_array.txt', 'a') as file: #opening the file in append mode
+    with open('average_case_array.txt', 'a') as file: #opening the file in append mode also
         file.seek(0, 2) #move the file pointer to the end 
         file.write(f'size of {size_of_array} : {array} \n\n') #writing or appending to the last pointer of the file
     
