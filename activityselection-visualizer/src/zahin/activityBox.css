@@ -1,0 +1,20 @@
+.activityBoxContainer {
+  flex: 1; /* Allow the component to grow and fill the available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid black;
+  flex-basis: calc(100% / 5);
+}
+
+.activityName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.activityStartTime,
+.activityEndTime {
+  margin: 0;
+}
